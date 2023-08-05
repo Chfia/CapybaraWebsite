@@ -1,11 +1,45 @@
+$padding-small: 10px;
+$padding-medium: 20px;
+$padding-large: 30px;
+$padding-xlarge: 40px;
+
+$font-size-small: 18px;
+$font-size-medium: 27px;
+$font-size-large: 34px;
+$font-size-xlarge: 45px;
+
 .footer {
     display: flex;
-    //margin: 10px;
-    padding: 10px;
+    padding: $padding-small;
     justify-content: space-around;
     background: var(--brown);
+
+    @media (min-width: 768px) {
+        padding: $padding-medium;
+    }
+
+    @media (min-width: 1366px) {
+        padding: $padding-large;
+    }
+
+    @media (min-width: 1920px) {
+        padding: $padding-xlarge;
+    }
+
     a {
         color: var(--light);
-        font-size: 18px;
+        font-size: $font-size-small;
+
+        @media (min-width: 768px) {
+            font-size: $font-size-medium;
+        }
+
+        @media (min-width: 1366px) {
+            font-size: $font-size-large;
+        }
+
+        @media (min-width: 1920px) {
+            font-size: $font-size-xlarge;
+        }
     }
 }

@@ -4,7 +4,44 @@
   justify-content: space-around;
   background: var(--brown);
 }
+
+@media (min-width: 768px) {
+  .footer {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 1366px) {
+  .footer {
+    padding: 30px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .footer {
+    padding: 40px;
+  }
+}
+
 .footer a {
   color: var(--light);
   font-size: 18px;
-}/*# sourceMappingURL=footer.css.map */
+}
+
+@media (min-width: 768px) {
+  .footer a {
+    font-size: 27px;
+  }
+}
+
+@media (min-width: 1366px) {
+  .footer a {
+    font-size: 34px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .footer a {
+    font-size: 45px;
+  }
+}

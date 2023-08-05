@@ -30,9 +30,30 @@
       <a href="#info">Info</a>
       <a href="#map">Mapa</a>
     </nav>
+
+    <div class="navtop">
+      <a href="#start">Start</a>
+      <a href="#info">Info</a>
+      <a href="#map">Mapa</a>
+    </div>
+
     <h1>Kapibara</h1>
     <div id="start" class="intro">
-      <img src="./assets/images/c2b.jpg" alt="Kapibara zdjęcie" />
+      <picture>
+        <source
+          media="(max-width: 767px)"
+          srcset="./assets/images/c2b-768.webp"
+        />
+        <source
+          media="(min-width: 768px) and (max-width: 1365px)"
+          srcset="./assets/images/c2-1366.webp"
+        />
+        <source
+          media="(min-width: 1366px)"
+          srcset="./assets/images/c2-1920.webp"
+        />
+        <img src="./assets/images/c2b.jpg" alt="Kapibara zdjęcie" />
+      </picture>
     </div>
 
     <div class="info">
@@ -44,12 +65,12 @@
         <span class="info__block__number">60kg</span>
         <span class="info__block__txt">Masa ciała</span>
       </div>
-      <div class="info__block">
+      <div id="info" class="info__block">
         <span class="info__block__number">nawet 15 lat</span>
         <span class="info__block__txt">Długość życia</span>
       </div>
     </div>
-    <div id="info" class="content">
+    <div class="content">
       <div class="content__txt">
         <p class="content__txt__title">
           Kapibara: Największy Gryzoń na Świecie
@@ -66,8 +87,19 @@
 
       <div class="content__picture">
         <picture>
-          <source srcset="./assets/images/c1.jpg" type="image/jpeg" />
-          <img src="./assets/images/c1.jpg" alt="Kapibara na trawie" />
+          <source
+            media="(max-width: 767px)"
+            srcset="./assets/images/c1-768.webp"
+          />
+          <source
+            media="(min-width: 768px) and (max-width: 1365px)"
+            srcset="./assets/images/c1-1366.webp"
+          />
+          <source
+            media="(min-width: 1366px)"
+            srcset="./assets/images/c1-1920.webp"
+          />
+          <img src="./assets/images/c1.jpg" alt="Kapibara zdjęcie" defer />
         </picture>
       </div>
 
@@ -86,8 +118,19 @@
 
       <div class="content__picture">
         <picture>
-          <source srcset="./assets/images/5255073.png" type="image/jpeg" />
-          <img src="./assets/images/5255073.png" alt="Kapibara zdjęcie" />
+          <source
+            media="(max-width: 767px)"
+            srcset="./assets/images/c4-768.webp"
+          />
+          <source
+            media="(min-width: 768px) and (max-width: 1365px)"
+            srcset="./assets/images/c4-1366.webp"
+          />
+          <source
+            media="(min-width: 1366px)"
+            srcset="./assets/images/c4-1920.webp"
+          />
+          <img src="./assets/images/c4.png" alt="Kapibara zdjęcie" defer />
         </picture>
       </div>
 
@@ -106,8 +149,19 @@
 
       <div class="content__picture">
         <picture>
-          <source srcset="./assets/images/2528359.png" type="image/jpeg" />
-          <img src="./assets/images/2528359.png" alt="Kapibara zdjęcie" />
+          <source
+            media="(max-width: 767px)"
+            srcset="./assets/images/c5-768.webp"
+          />
+          <source
+            media="(min-width: 768px) and (max-width: 1365px)"
+            srcset="./assets/images/c5-1366.webp"
+          />
+          <source
+            media="(min-width: 1366px)"
+            srcset="./assets/images/c5-1920.webp"
+          />
+          <img src="./assets/images/c5.png" alt="Kapibara zdjęcie" defer />
         </picture>
       </div>
 
@@ -124,8 +178,19 @@
 
       <div class="content__picture">
         <picture>
-          <source srcset="./assets/images/147184.png" type="image/jpeg" />
-          <img src="./assets/images/147184.png" alt="Kapibara zdjęcie" />
+          <source
+            media="(max-width: 767px)"
+            srcset="./assets/images/c3-768.webp"
+          />
+          <source
+            media="(min-width: 768px) and (max-width: 1365px)"
+            srcset="./assets/images/c3-1366.webp"
+          />
+          <source
+            media="(min-width: 1366px)"
+            srcset="./assets/images/c3-1920.webp"
+          />
+          <img src="./assets/images/c3.png" alt="Kapibara zdjęcie" defer />
         </picture>
       </div>
 
@@ -134,7 +199,7 @@
         <p class="content__txt__description">
           Kapibary są znane z ich przyjaznego i spokojnego usposobienia. Często
           spotyka się je w towarzystwie innych zwierząt, takich jak ptaki,
-          kaczki, żółwie i kaje. Te różne gatunki
+          kaczki, żółwie i kaje.
         </p>
       </div>
       <div id="map" class="map">
