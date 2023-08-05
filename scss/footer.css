@@ -1,0 +1,10 @@
+.footer {
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+  background: var(--brown);
+}
+.footer a {
+  color: var(--light);
+  font-size: 18px;
+}/*# sourceMappingURL=footer.css.map */
